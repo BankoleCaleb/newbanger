@@ -1,0 +1,25 @@
+.verify-notification-card {
+  border: 1px solid #E0DADA;
+  background: #FCF4F4;
+  padding: 16px;
+}
+
+.verify-notification-card .text-container {
+  color: var(--new-color-grey, #2E302F);
+}
+
+.verify-notification-card .text {
+  color: #2E302F;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.verify-notification-card .verify-btn {
+  padding: 16px;
+  color: #FF614D;
+  font-size: 14px;
+  font-weight: 500;
+}
