@@ -14,6 +14,8 @@ function Header({ showSideNav, toggleShowSideNav }) {
   return (
     <nav className="blogger-welcome-header">
       <div className="container flex justify-between items-center">
+        <h1 className="heading">Overview</h1>
+
         <span className="mobile-menu">
           <button className={`close ${showSideNav ? "show" : "hide"}`} onClick={toggleShowSideNav}>
             <AiOutlineClose style={{ fontSize: "2em" }} />

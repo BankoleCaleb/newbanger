@@ -1,14 +1,14 @@
 import React from "react";
 
 
-import "./page.css";
-import Header from "../components/header/Header";
-import Sidenav from "../components/sidenav/Sidenav";
+import "./default.css";
+import Header from "../../components/header/Header";
+import Sidenav from "../../components/sidenav/Sidenav";
 
-import laptop from "../assets/laptop.png"
-import VerifyNotificationCard from "../components/verify-notification-card/VerifyNotificationCard";
+import laptop from "../..//assets/laptop.png"
+import VerifyNotificationCard from "../../components/verify-notification-card/VerifyNotificationCard";
 
-function Page() {
+function Default() {
   const [showSideNav, setShowSideNav] = React.useState(true)
   const toggleShowSideNav = () => setShowSideNav(a => !a);
 
@@ -36,4 +36,4 @@ function Page() {
   )
 }
 
-export default Page;
+export default Default;

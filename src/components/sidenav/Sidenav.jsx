@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import { MdSpeed } from "react-icons/md"
 import { GiMegaphone } from "react-icons/gi"
@@ -16,11 +17,11 @@ function Sidenav({ showSideNav }) {
         <img src={logo} alt="logo" />
 
         <ul className="navlink-container">
-          <li><a className="flex gap1 items-center" href="#"><MdSpeed />Overview</a></li>
-          <li><a className="flex gap1 items-center" href="#"><GiMegaphone />Contents</a></li>
-          <li><a className="flex gap1 items-center" href="#"><MdSpeed />Payment</a></li>
-          <li><a className="flex gap1 items-center" href="#"><MdSpeed />Support</a></li>
-          <li><a className="flex gap1 items-center" href="#"><MdSpeed />Settings</a></li>
+          <li><Link className="flex gap1 items-center" to="/overview"><MdSpeed />Overview</Link></li>
+          <li><Link className="flex gap1 items-center" to="#"><GiMegaphone />Contents</Link></li>
+          <li><Link className="flex gap1 items-center" to="#"><MdSpeed />Payment</Link></li>
+          <li><Link className="flex gap1 items-center" to="#"><MdSpeed />Support</Link></li>
+          <li><Link className="flex gap1 items-center" to="#"><MdSpeed />Settings</Link></li>
         </ul>
 
         <button className="signout-btn flex gap1">

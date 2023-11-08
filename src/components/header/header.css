@@ -27,9 +27,23 @@
   border-radius: 50%;
 }
 
+.blogger-welcome-header .heading {
+  color: #2E302F;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+@media(max-width: 750px) {
+  .blogger-welcome-header .heading {
+    display: none;
+  }
+}
+
 @media (min-width: 750px) {
   .blogger-welcome-header {
-    padding: 24px 100px;
+    padding: 24px 60px;
   }
 
   .blogger-welcome-header .mobile-menu {
