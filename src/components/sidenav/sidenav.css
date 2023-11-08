@@ -1,0 +1,54 @@
+.blogger-welcome-sidenav {
+  color: white;
+  background-color: #FF614D;
+  padding: 24px;
+  max-width: 300px;
+}
+
+.blogger-welcome-sidenav .navlink-container {
+  padding: 0;
+  list-style: none;
+}
+
+.blogger-welcome-sidenav .sidenav-container {
+  height: 100%;
+  gap: 70px;
+}
+
+.blogger-welcome-sidenav .sidenav-container .signout-btn {
+  margin-top: auto;
+  margin-bottom: 120px;
+  margin-left: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid white;
+  width: fit-content;
+}
+
+.blogger-welcome-sidenav .navlink-container a {
+  padding: 10px;
+  transition: all ease .3s;
+}
+
+.blogger-welcome-sidenav .navlink-container a:hover {
+  background-color: white;
+  color: #FF614D;
+}
+
+@media (max-width: 750px) {
+  .blogger-welcome-sidenav {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    max-width: 300px;
+  }
+
+  .blogger-welcome-sidenav.hide {
+    display: none;
+  }
+
+  .blogger-welcome-sidenav.show {
+    display: block;
+  }
+}
