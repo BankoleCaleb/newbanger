@@ -3,7 +3,7 @@ import React from "react";
 
 import "./default.css";
 import Header from "../../components/header/Header";
-import Sidenav from "../../components/sidenav/Sidenav";
+import BloggerNav from "../../components/blogger-nav/BloggerNav";
 
 import laptop from "../..//assets/laptop.png"
 import VerifyNotificationCard from "../../components/verify-notification-card/VerifyNotificationCard";
@@ -14,7 +14,7 @@ function Default() {
 
   return (
     <div className="blogger-welcome">
-      <Sidenav showSideNav={showSideNav} />
+      <BloggerNav showSideNav={showSideNav} />
       <main className="blogger-welcome-main">
         <Header showSideNav={showSideNav} toggleShowSideNav={toggleShowSideNav} />
 

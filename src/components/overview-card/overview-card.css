@@ -1,0 +1,42 @@
+.overview-card {
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 5px 40px 0px rgba(146, 196, 255, 0.20);
+  padding: 30px 20px;
+}
+
+.overview-card .icon-container {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  color: #FF614D;
+  background-color: #FAE1DE;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview-card .card-body {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.overview-card .card-body .figure {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overview-card .view-all-btn {
+  color: #000;
+  font-family: Inter, "Dm Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
